@@ -1,0 +1,115 @@
+.fixed {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      height: 30px;
+      width: 100%;
+      background-color: oldlace;
+      text-align: center;
+      
+}
+     
+#asideband {
+     background-image: 
+     background-repeat: no-repeat;
+    background-position: center;
+      height: 300px;
+     margin-top: -30px;
+}
+
+#asidestage {
+     background-image: 
+     background-repeat: no-repeat;
+    background-position: center;
+      height: 280px;
+    margin-top: -30px;
+}
+
+#asideperform {
+     background-image: 
+     background-repeat: no-repeat;
+    background-position: center;
+      height: 110px;
+    margin-top: 5px;
+}
+
+
+body {
+    background-color: mintcream;
+  padding: 2em;
+}
+
+table.table { width: 100%; }
+
+.table th, .table td { 
+  text-align: left; 
+  padding: 0.25em;
+}
+
+.table tr { 
+  border-bottom: 1px solid aquamarine;
+}
+td.edit-buttons { text-align: right; }
+button { 
+  border-radius: 3px; 
+  border: none; 
+  margin: 0 0.25em; 
+  transition: all 0.3s;
+}
+
+button:hover { 
+  box-shadow: 0 0 4px blue; 
+  opacity: 0.9;
+}
+
+button.edit { background-color: #6F9; width: 100%; padding-bottom: 2%;}
+button.delete { background-color: #F69; width: 100%; padding: 2% 2%; }
+
+@media screen and (max-width: 800px) {
+  tr { 
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0.5em 0;
+    border: 1px solid blue;
+  }
+  td, th {
+    flex: 1 1 150px;
+    border: 0.5px solid blue;
+  }
+  td.edit-buttons, td.empty {
+    /*flex: 1 0 90%;
+    text-align: center;*/
+  }
+}
+
+* { box-model: border-box; font-family: 'futura'; }
+
+
+
+
+
+
+/*
+#showcontent>tbody>tr:last-child {
+    
+    
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  width: 27%;
+}
+
+.pager {
+  margin: 4px 0;
+  padding-left: 0;
+  text-align: center;
+  list-style: none;
+}
+
+*/
